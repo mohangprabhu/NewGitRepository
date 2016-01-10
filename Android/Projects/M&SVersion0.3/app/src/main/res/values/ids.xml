@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Arabella" type="id">11</item>
+    <item name="GurGateway" type="id">12</item>
+    <item name="Myst" type="id">13</item>
+    <item name="Primanti" type="id">14</item>
+    <item name="HaileyRoad" type="id">15</item>
+
+    <item name="Ariana" type="id">21</item>
+    <item name="Avenida" type="id">22</item>
+    <item name="EdenCourt" type="id">23</item>
+
+    <item name="Amantra" type="id">31</item>
+    <item name="Aveza" type="id">32</item>
+    <item name="Infinium" type="id">33</item>
+    <item name="Prive" type="id">34</item>
+
+    <item name="AquilaHeights" type="id">41</item>
+    <item name="Promont" type="id">42</item>
+    <item name="Cascades" type="id">43</item>
+
+    <item name="Bahadurgarh" type="id">51</item>
+
+    <item name="BTRoad" type="id">61</item>
+
+    <item name="AhmedabadNH" type="id">71</item>
+    <item name="AhmedabadNHC" type="id">72</item>
+    <item name="Boisar1" type="id">73</item>
+    <item name="Boisar1Retail" type="id">74</item>
+    <item name="Boisar2NH" type="id">75</item>
+    <item name="Boisar2NHC" type="id">76</item>
+    <item name="InoraPark" type="id">77</item>
+    <item name="LaMontana" type="id">78</item>
+    <item name="Vasind" type="id">79</item>
+
+    <item name="Peenya" type="id">81</item>
+    <item name="RIVA" type="id">82</item>
+    <item name="RibbonWalk" type="id">83</item>
+    <item name="Santorini" type="id">84</item>
+
+    <item name="Cust_name" type="id">101</item>
+    <item name="Unt_Sld" type="id">102</item>
+    <item name="Value" type="id">103</item>
+    <item name="Prsn_Rspb" type="id">104</item>
+    <item name="Proj_Nme" type="id">105</item>
+    <item name="Cust_Src" type="id">106</item>
+    <item name="Cust_Occ" type="id">107</item>
+    <item name="Cust_Info" type="id">108</item>
+
+
+
+    <item name="UserId" type="id">1001</item>
+    <item name="UserHidden" type="id">999</item>
+
+</resources>

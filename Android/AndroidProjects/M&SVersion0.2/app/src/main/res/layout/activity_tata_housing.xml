@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mycompany.marketingapp.UpdateSales"
+    android:orientation="vertical">
+
+    <!--Add a view to show project name for the project clicked by user in last screen -->
+    <!-- <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/proj_name"
+            android:text="@string/welcome"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0px" />
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/submit_data"
+            android:text="@string/button_login"
+            android:onClick="loginDialog"
+            android:layout_gravity="bottom"
+            />
+    </TableRow>
+
+
+</LinearLayout>

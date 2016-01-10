@@ -1,0 +1,2 @@
+Take Example M&S version 0.3 
+Dont forget to add provider tag in Android Manifest
