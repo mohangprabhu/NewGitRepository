@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/C:/Mohan/Android/AndroidProjects/CustomNotifications/Application/src/main/res/values-v9/styles.xml -->
-    <eat-comment/>
-    <style name="NotificationContent" parent="@android:style/TextAppearance.StatusBar.EventContent">
-    </style>
-</resources>
