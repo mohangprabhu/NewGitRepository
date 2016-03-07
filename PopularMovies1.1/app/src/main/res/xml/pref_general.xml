@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--List Preference for Selecting Sort Type-->
+    <ListPreference
+        android:title="@string/label_sort_by"
+        android:key="@string/key_sort_by"
+        android:defaultValue="@string/default_sort_by"
+        android:entries="@array/pref_sort_by"
+        android:entryValues="@array/pref_sort_by"
+        />
+    <!--<SwitchPreference-->
+        <!--android:title="@string/label_adult_movies"-->
+        <!--android:key="@string/key_adult_movies"-->
+        <!--android:summaryOff="@string/summary_adult_movies_off"-->
+        <!--android:summaryOn="@string/summary_adult_movies_on"-->
+        <!--android:defaultValue="@string/default_adult_movies"-->
+        <!--/>-->
+
+</PreferenceScreen>

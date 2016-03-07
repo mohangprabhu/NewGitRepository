@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PopularMovies1.1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="movie_image">Movie Backdrop Image</string>
+    <string name="label_sort_by">Sort By</string>
+    <string name="key_sort_by">sort_by</string>
+    <string name="default_sort_by">Most Popular</string>
+    <string name="action_share">Share</string>
+
+    <string name="user_rating_label">User Rating :</string>
+    <string name="rating_out_of">/10</string>
+    <string name="user_votes_label">Votes :</string>
+    <string name="release_date_label">Release Date :</string>
+    <string name="description_label">Plot Synopsis :</string>
+
+    <string-array name="pref_sort_by">
+        <item name="pref_sort_by_popularity_asc" translatable = "false">Most Popular</item>
+        <item name="pref_sort_by_popularity_desc" translatable = "false">Least Popular</item>
+        <item name="pref_sort_by_rating_asc" translatable = "false">Highest Rated</item>
+        <item name="pref_sort_by_rating_desc" translatable = "false">Lowest Rated</item>
+        <item name="pref_sort_by_revenue_asc" translatable = "false">Highest Grossing</item>
+        <item name="pref_sort_by_revenue_desc" translatable = "false">Lowest Grossing</item>
+    </string-array>
+
+</resources>
