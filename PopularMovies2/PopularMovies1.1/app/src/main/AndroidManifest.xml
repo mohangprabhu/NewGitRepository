@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidproject.popularmovies11" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MoviesHomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/GridTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MoviesHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidproject.popularmovies11.MoviesHomeActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/SettingsTheme"
+            android:parentActivityName=".MoviesHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidproject.popularmovies11.MoviesHomeActivity" />
+        </activity>
+
+        <provider
+            android:name=".data.MovieProvider"
+            android:authorities="com.androidproject.popularmovies11"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ReviewActivity"
+            android:label="@string/title_activity_review"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidproject.popularmovies11.DetailActivity" />
+        </activity>
+        <activity
+            android:name=".TrailerActivity"
+            android:label="@string/title_activity_trailer"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidproject.popularmovies11.DetailActivity" />
+        </activity>
+    </application>
+
+</manifest>

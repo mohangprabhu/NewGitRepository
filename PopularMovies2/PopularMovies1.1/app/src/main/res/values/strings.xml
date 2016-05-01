@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Popular Movies 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">:::::</string>
+    <string name="title_activity_detail">Movie Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="movie_image">Movie Backdrop Image</string>
+    <string name="label_sort_by">Sort By</string>
+    <string name="key_pref">sort_by</string>
+    <string name="default_preference">popular</string>
+    <string name="action_share">Share</string>
+
+    <string name="user_rating_label">User Rating :</string>
+    <string name="rating_out_of">/10</string>
+    <string name="user_votes_label">Votes :</string>
+    <string name="release_date_label">Release Date :</string>
+    <string name="description_label">Plot Synopsis :</string>
+
+    
+    <string-array name="pref_value">
+        <item name="pref_show_pop" translatable = "false">Popular</item>
+        <item name="pref_show_top" translatable = "false">Top Rated</item>
+        <item name="pref_show_fav" translatable = "false">Favorite</item>
+    </string-array>
+
+    <string-array name="pref_key_value">
+        <item name="pref_show_pop_key" translatable = "false">popular</item>
+        <item name="pref_show_top_key" translatable = "false">top_rated</item>
+        <item name="pref_show_fav_key" translatable = "false">favorite</item>
+    </string-array>
+    <string name="title_activity_review">Reviews</string>
+    <string name="title_activity_trailer">Trailers</string>
+    <string name="title_activity_favorite">Favorite</string>
+
+    <string name="font">sans-serif-condensed</string>
+</resources>
